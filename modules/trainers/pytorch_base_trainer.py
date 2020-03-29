@@ -16,7 +16,14 @@ class BaseTorchTrainer:
         self.verbose = verbose
 
     def train_step(self, iterator):
-        """Advance a one epoch."""
+        """
+        
+        Args:
+            iterator ():
+
+        Returns:
+
+        """
         self.model.train()
         epoch_loss = 0
         epcoh_acc = 0
